@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/NorthWall.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/WestWall.unity
+    guid: 119956e6eb19f7f499b70704ea01fb0a
+  - enabled: 1
+    path: Assets/Scenes/SouthWall.unity
+    guid: f45907e64ded2284bad742e53deaa27b
+  - enabled: 1
+    path: Assets/Scenes/EastWall.unity
+    guid: 417cdf8e61575db479ab8ce2c057bf7c
   m_configObjects: {}
