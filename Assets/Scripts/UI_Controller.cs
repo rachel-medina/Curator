@@ -11,26 +11,21 @@ public class UI_Controller : MonoBehaviour
     [SerializeField] private Button b_left;
     [SerializeField] private Button b_right;
 
-private void Awake()
+
+private void Start()
 {
-    if (instance != null && instance != this)
-    {
-        Destroy(gameObject);
-        return;
-    }
-
-    instance = this;
-
-    DontDestroyOnLoad(gameObject);
-}
-    public void Start()
-    {
+    if (b_left == null)
         b_left = GameObject.Find("b_left")?.GetComponent<Button>();
+
+    if (b_right == null)
         b_right = GameObject.Find("b_right")?.GetComponent<Button>();
 
+    if (b_left != null)
         b_left.onClick.AddListener(LoadLeft);
+
+    if (b_right != null)
         b_right.onClick.AddListener(LoadRight);
-    }
+}
 
 
     public void LoadLeft()
