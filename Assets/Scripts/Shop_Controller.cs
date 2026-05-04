@@ -23,7 +23,7 @@ public class Shop_Controller : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene("NorthWall"); // fallback
+            SceneManager.LoadScene("NorthWall"); 
         }
     }
 }
