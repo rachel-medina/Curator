@@ -17,9 +17,9 @@ public class Shop_Controller : MonoBehaviour
 
     private void ReturnToPreviousScene()
     {
-        if (!string.IsNullOrEmpty(SceneMemory.lastScene))
+        if (!string.IsNullOrEmpty(Scene_Memory.lastScene))
         {
-            SceneManager.LoadScene(SceneMemory.lastScene);
+            SceneManager.LoadScene(Scene_Memory.lastScene);
         }
         else
         {

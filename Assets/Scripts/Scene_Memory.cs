@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public static class SceneMemory
+public static class Scene_Memory
 {
     public static string lastScene;
     
