@@ -22,6 +22,7 @@ public class Evaluation_Controller : MonoBehaviour
 
     public void LoadGallery()
     {
+        Game_Manager.Instance.NextDay();
         SceneManager.LoadScene("NorthWall");
     }
 }
